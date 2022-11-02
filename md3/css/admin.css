@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Montserrat,sans-serif;
+    background: #eafced;
+}
+#navbar ul{
+    display: none;
+    background-color: #f90;
+    position: absolute;
+    top: 100%;
+}
+#navbar li:hover ul { display: block; }
+#navbar, #navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#navbar {
+    height: 30px;
+    background-color: #666;
+    padding-left: 25px;
+    min-width: 470px;
+}
+#navbar li {
+    float: left;
+    position: relative;
+    height: 100%;
+}
+#navbar li a {
+    display: block;
+    padding: 6px;
+    width: 100px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+#navbar ul li { float: none; }
+#navbar li:hover { background-color: #f90; }
+#navbar ul li:hover { background-color: #666; }
+.nad_nav{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.panel{
+    margin: 20px;
+    padding: 15px 200px 15px 200px ;
+    border: 2px solid red;
+}
+.monitoring{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.monitoring_panel{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.monitoring_status{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid red;
+    height:250px;
+    width: 100%;
+}
